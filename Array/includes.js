@@ -7,5 +7,6 @@ if(booksName.includes('Biology')){
 else{
     console.log('Obosta valo na');
 }
-
-console.log(Array.isArray(booksName));
+const verifyArray = Array.isArray(booksName);
+console.log(verifyArray);
+// console.log(Array.isArray(booksName));
