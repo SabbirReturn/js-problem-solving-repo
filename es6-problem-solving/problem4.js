@@ -8,4 +8,9 @@ let product=[
 // using map
 
 let name= product.map(x=>x.name);
-console.log(name);
+// console.log(name);
+
+// using filter
+
+let price = product.filter(x=>x.price>60000);
+console.log(price);
