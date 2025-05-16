@@ -5,3 +5,7 @@ let product=[
     {id:4, name:'Mack', price:162000},
 ]
 
+// using map
+
+let name= product.map(x=>x.name);
+console.log(name);
