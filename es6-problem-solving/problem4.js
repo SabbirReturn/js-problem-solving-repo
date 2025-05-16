@@ -13,4 +13,9 @@ let name= product.map(x=>x.name);
 // using filter
 
 let price = product.filter(x=>x.price>60000);
-console.log(price);
+// console.log(price);
+
+// using reduce
+
+let sum = product.reduce((p,c)=> p+c.price,0);
+console.log(sum);
